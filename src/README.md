@@ -1,8 +1,8 @@
 
-<h1 align="center">README Generator 👋</h1>
+<h1 align="center">Langdons README Gen 👋</h1>
 
 ## Description
-🔍  This project is an introduction to node.js as well as a useful tool for future project README's
+🔍 Example Readme
 
 ## Table of Contents
 - [Description](#description)
@@ -12,23 +12,23 @@
 - [license](#license)
 
 ## Usage
-💻 A useful tool to generate your README for future projects
+💻 For my coding bootcamp
 
 ## License
-![badge](https://img.shields.io/badge/license-Open-brightgreen)
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 <br />
-This application is covered by the Open license. 
+This application is covered by the MIT license. 
 
 ## Installation
 💾 node.js 
 
 ## Contributing
-👪 Langdon Echols
+👪 Langdon
 
-✉️ Email me with any questions: Langdon.echols@yahoo.com<br /><br />
+✉️ Email me with any questions: Langdons Email<br /><br />
 
 ## Tests
-✏️ N/A<br />
+✏️ N/a<br />
 <br />
 
 

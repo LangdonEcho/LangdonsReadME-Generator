@@ -2,6 +2,7 @@
 
 ## Description
 🔍  This project is an introduction to node.js as well as a useful tool for future project README's
+https://watch.screencastify.com/v/Ud5NgDsY67Q8BzwjDojb
 
 ## Table of Contents
 - [Description](#description)
