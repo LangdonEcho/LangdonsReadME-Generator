@@ -25,4 +25,16 @@ This application is covered by the ${answers.license} license.
 💾 ${answers.installation} 
 
 ## Contributing
-👪 ${answers.contributing}
+👪 ${answers.contributors}
+
+✉️ Email me with any questions: ${answers.email}<br /><br />
+
+## Tests
+✏️ ${answers.tests}<br />
+<br />
+
+
+This README was generated with ❤️ by [Langdonsreadme-Generator](https://github.com/LangdonEcho/LangdonsReadME-Generator)`;
+  }
+  
+  module.exports = generateReadme;

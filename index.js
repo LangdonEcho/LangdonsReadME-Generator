@@ -1,6 +1,7 @@
 const fileGenerator = require("./fileGenerator");
 const fs = require("fs");
 const inquirer = require('inquirer');
+const Choices = require("inquirer/lib/objects/choices");
 
 //set up prompted questions
 
@@ -34,6 +35,23 @@ let questions = [
         type: "input",
          message: "Is there a test included?",
          name: "tests"
+    },
+    {
+        type: "list",
+         message: "Is there a test included?",
+         name: "license",
+         choices: [
+            "Open",
+            "MIT",
+            "Apache",
+            "Academic",
+            "Mozilla",
+         ]
+    },
+    {
+        type: "input",
+        message:"Who all contributed on this project?",
+        name:"contributors"        
     },
 
 ]
