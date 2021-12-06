@@ -1,4 +1,4 @@
-const fileGenerator = require("./fileGenerator");
+const generatingReadme = require("./utils/generatingReadme");
 const fs = require("fs");
 const inquirer = require('inquirer');
 const Choices = require("inquirer/lib/objects/choices");
