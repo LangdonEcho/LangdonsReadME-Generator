@@ -63,11 +63,15 @@ async function init() {
         const answers = await inquirer.prompt(questions);
         const generateContent = generatingReadme(answers);
         // Write new README.md to dist directory
-        fs.writeFile('./src/README.md', generateContent);
-        console.log('✔️  Successfully wrote to README.md');
+        fs.writeFile("./src/README.md", generateContent, (err) => {
+            if (err)
+              console.log(err);
+            else {
+              console.log("✔️ File written successfully");
+            }
+          });
     }   catch(err) {
         console.log(err);
-    }
-  }
-  
+  } 
+}
   init();  
