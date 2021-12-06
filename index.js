@@ -60,10 +60,10 @@ let questions = [
 async function init() {
     try {
         // Ask user questions and generate responses
-        const answers = await promptUser();
-        const generateContent = generateReadme(answers);
+        const answers = await inquirer.prompt(questions);
+        const generateContent = generatingReadme(answers);
         // Write new README.md to dist directory
-        await writeFileAsync('./src/README.md', generateContent);
+        await fs.writeFile('./src/README.md', generateContent);
         console.log('✔️  Successfully wrote to README.md');
     }   catch(err) {
         console.log(err);
