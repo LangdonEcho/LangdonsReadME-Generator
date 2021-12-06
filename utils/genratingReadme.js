@@ -14,7 +14,7 @@ function generateReadme(answers) {
 - [license](#license)
 
 ## Usage
-💻 ${answers.usage}
+💻 ${answers.purpose}
 
 ## License
 ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
@@ -34,7 +34,7 @@ This application is covered by the ${answers.license} license.
 <br />
 
 
-This README was generated with ❤️ by [Langdonsreadme-Generator](https://github.com/LangdonEcho/LangdonsReadME-Generator)`;
+This README was generated with ❤️ by (https://github.com/LangdonEcho/LangdonsReadME-Generator)`;
   }
   
   module.exports = generateReadme;
