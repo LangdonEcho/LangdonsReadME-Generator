@@ -2,7 +2,7 @@ const generatingReadme = require("./utils/generatingReadme");
 const fs = require("fs");
 const inquirer = require('inquirer');
 const Choices = require("inquirer/lib/objects/choices");
-
+const writeFileAsync = util.promisify(fs.writeFile);
 //set up prompted questions
 
 let questions = [
@@ -63,7 +63,7 @@ async function init() {
         const answers = await inquirer.prompt(questions);
         const generateContent = generatingReadme(answers);
         // Write new README.md to dist directory
-        await fs.writeFile('./src/README.md', generateContent);
+        await writeFileAsync('./src/README.md', generateContent);
         console.log('✔️  Successfully wrote to README.md');
     }   catch(err) {
         console.log(err);
