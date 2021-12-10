@@ -1,8 +1,8 @@
 
-<h1 align="center">Langdons README Gen 👋</h1>
+<h1 align="center">Langdons Employee tracker 👋</h1>
 
 ## Description
-🔍 Example Readme
+🔍 to help busy workplaces keep better track of employees.
 
 ## Table of Contents
 - [Description](#description)
@@ -12,7 +12,7 @@
 - [license](#license)
 
 ## Usage
-💻 For my coding bootcamp
+💻 For the use of busy companies looking for a way to keep track of all thier employees 
 
 ## License
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
@@ -20,15 +20,15 @@
 This application is covered by the MIT license. 
 
 ## Installation
-💾 node.js 
+💾 node.js, inquirer and console.tablelog 
 
 ## Contributing
-👪 Langdon
+👪 Langdon Echols
 
-✉️ Email me with any questions: Langdons Email<br /><br />
+✉️ Email me with any questions: Langdon.Echols@yahoo.com<br /><br />
 
 ## Tests
-✏️ N/a<br />
+✏️ N/A<br />
 <br />
 
 
