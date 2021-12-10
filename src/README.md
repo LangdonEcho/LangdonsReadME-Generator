@@ -1,8 +1,8 @@
 
-<h1 align="center">Langdons Employee tracker 👋</h1>
+<h1 align="center">Langdon's tech-blog 👋</h1>
 
 ## Description
-🔍 to help busy workplaces keep better track of employees.
+🔍 the purpose of this project is to encapsulate everything 
 
 ## Table of Contents
 - [Description](#description)
@@ -12,7 +12,7 @@
 - [license](#license)
 
 ## Usage
-💻 For the use of busy companies looking for a way to keep track of all thier employees 
+💻 I created this proect to have my own person blogging website where users can login and blog and interact with others on the site
 
 ## License
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
@@ -20,15 +20,15 @@
 This application is covered by the MIT license. 
 
 ## Installation
-💾 node.js, inquirer and console.tablelog 
+💾 express.js mysql2, sequalize express.handlebars, dotenv, bcrypt, and express session 
 
 ## Contributing
 👪 Langdon Echols
 
-✉️ Email me with any questions: Langdon.Echols@yahoo.com<br /><br />
+✉️ Email me with any questions: Langdon.echols@yahoo.com<br /><br />
 
 ## Tests
-✏️ N/A<br />
+✏️ N/a<br />
 <br />
 
 
